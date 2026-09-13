@@ -1,0 +1,29 @@
+1
+00:00:00,940 --> 00:00:03,460
+I know AI can help generate slides.
+我知道AI能帮助生成幻灯片。
+
+2
+00:00:05,800 --> 00:00:08,830
+I don't want to do your whole thing, but I'll let you do it.
+我不希望它替你包办全部作业，但我允许你们使用，
+
+3
+00:00:09,290 --> 00:00:12,050
+As long as you acknowledge it.
+只要你们明确注明使用了AI。
+
+4
+00:00:13,160 --> 00:00:18,380
+Same thing with graphs, things, charts, anything you use in your presentations.
+图表、示意图以及演示中用到的任何素材也是如此。
+
+5
+00:00:18,820 --> 00:00:21,380
+It's like a graph. I mean, we got it.
+比如这张图。我的意思是，我们已经明白了。
+
+6
+00:00:21,420 --> 00:00:27,300
+It's a site. It came from here. But remember to cite the things that we set
+这是一个网站，内容来自这里。但请记得引用我们提到的资料。
