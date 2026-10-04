@@ -142,7 +142,8 @@ def merge_and_validate(source_path, chunks_dir, output_path, overwrite=False, ke
         handle.write("\n\n".join(formatted_blocks) + "\n")
 
     duration = source_blocks[-1][1].split(" --> ", 1)[1]
-    print(f"[PASS] Wrote {len(formatted_blocks)} bilingual blocks through {duration}")
+    print(f"[STRUCTURE PASS] Wrote {len(formatted_blocks)} bilingual blocks through {duration}")
+    print("Semantic alignment is not checked by this script.")
     print(f"Output: {output_path}")
     if cleanup_target is not None:
         shutil.rmtree(cleanup_target)
@@ -159,7 +160,8 @@ def validate_completed_file(source_path, input_path):
     translated_blocks = read_bilingual_srt(input_path)
     validate_against_source(source_blocks, translated_blocks)
     duration = source_blocks[-1][1].split(" --> ", 1)[1]
-    print(f"[PASS] Validated {len(translated_blocks)} bilingual blocks through {duration}")
+    print(f"[STRUCTURE PASS] Validated {len(translated_blocks)} bilingual blocks through {duration}")
+    print("Semantic alignment is not checked by this script.")
     print(f"Output: {input_path}")
 
 
